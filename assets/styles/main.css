@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "Airbnb-Cereal";
+  src: url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Ambit";
+  src: url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ambit";
+  src: url("../../assets/fonts/Ambit-Bold.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("../../assets/fonts/MonumentExtended-Regular.otf") format("otf");
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  height: 3165px;
+  margin: 0 auto;
+  background: #bec2c7;
+}
+
+/* ################# HEADER ###### */
+header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navigation-header {
+  flex: 0 0 auto;
+}
+
+.navigation-hero {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h5 {
+  font-family: Ambit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #191B1D;
+}
+
+.contact-btn {
+  width: 133px;
+  height: 42px;
+  background: #191B1D;
+  border-radius: 21px;
+}
+
+.contact-btn .reach-out {
+  font-family: Ambit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 22px;
+  padding-top: 10px;
+}
+
+header ul li {
+  list-style-type: none;
+  margin: 15px;
+}
+
+header ul li a {
+  font-family: Ambit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #191B1D;
+  text-decoration: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 4px;
+  margin: 5px;
+  background: #191B1D;
+  color: #fff;
+  transition: transform 2s ease, opacity 2s ease;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-7px, -8px);
+}
+
+.toggleBtn {
+  padding: 2px;
+  display: inline-block;
+  border: 1px solid #fff;
+  cursor: pointer;
+  align-self: center;
+}
+
+.navigation-hero h3 {
+  font-family: Monument Extended;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 86px;
+  color: #191B1D;
+  text-align: center;
+}
+
+.navigation-hero span {
+  color: #FFFFFF
+}
+
+.navigation-hero p {
+  font-family: Airbnb Cereal App;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #090909;
+  /* padding-bottom: 30px; */
+  position: relative;
+  bottom: 20px;
+}
+
+.yellow-line {
+  border-top: 3px solid yellow;
+  position: relative;
+  bottom: 40px;
+  max-width: 160px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:776px) {
+  .toggleBtn {
+    display: none;
+  }
+
+  .nav-menu {
+    padding: 0 20px;
+    flex: 1 0 auto;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .nav-menu li {
+    flex: 0 0 auto;
+  }
+
+  .logo {
+    flex: 0 0 auto;
+  }
+
+  .hero-card {
+    flex: 0 0 400px;
+  }
+
+  .navigation-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+

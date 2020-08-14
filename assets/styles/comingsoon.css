@@ -1,0 +1,126 @@
+/* coming soon page */
+
+@font-face {
+    font-family: "Airbnb-Cereal";
+    src: url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Ambit";
+    src: url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Ambit";
+    src: url("../../assets/fonts/Ambit-Bold.ttf") format("ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Monument";
+    src: url("../../assets/fonts/MonumentExtended-Ultrabold.otf"),
+        url("../../assets/fonts/monumentextended-regular.otf") format("otf")
+}
+
+@font-face {
+    font-family: "Airbnb";
+    src: url("../../assets/fonts/AirbnbCerealMedium.ttf") format("ttf");
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #bec2c7;
+}
+
+.coming-soon {
+    position: absolute;
+    top: 35%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    font-family: Monument Extended;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.coming-soon p {
+    font-family: Airbnb Cereal App;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #090909;
+    text-align: center;
+
+}
+
+.coming-soon span {
+    color: #090909
+}
+
+@media screen and (min-width:772px) {
+    .coming-soon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Monument Extended;
+        font-size: 60px;
+        line-height: 72px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+}
+@media screen and (max-width:600px){
+    .coming-soon p{
+        text-align: center;
+        padding-left:20px;
+    }
+}
+.soon {
+    animation-name: enterFromRight;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+  }
+  .coming {
+    animation-name: enterFromLeft;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+  }
+  
+  @keyframes enterFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    50% {
+      transform: translate(-10px);
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes enterFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    65% {
+      transform: translate(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  
