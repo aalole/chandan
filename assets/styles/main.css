@@ -1,20 +1,11 @@
 @font-face {
   font-family: "Airbnb-Cereal";
-  src: url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Ambit";
-  src: url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
+  src: url("../../assets/fonts/AirbnbCerealBook.ttf"),
+    url("../../assets/fonts/AirbnbCerealLight.ttf"),
+    url("../../assets/fonts/AirbnbCerealMedium.ttf")format("ttf");
   font-weight: normal;
 }
 
-@font-face {
-  font-family: "Ambit";
-  src: url("../../assets/fonts/Ambit-Bold.ttf") format("ttf");
-  font-weight: normal;
-}
 
 @font-face {
   font-family: "Monument Extended";
@@ -33,7 +24,7 @@
 
 body {
   max-width: 1920px;
-  height: 3165px;
+  /* height: 3165px; */
   margin: 0 auto;
   background: #bec2c7;
 }
@@ -71,14 +62,7 @@ header {
   color: #191B1D;
 }
 
-.contact-btn {
-  width: 133px;
-  height: 42px;
-  background: #191B1D;
-  border-radius: 21px;
-}
-
-.contact-btn .reach-out {
+.reach-out {
   font-family: Ambit;
   font-style: normal;
   font-weight: normal;
@@ -87,8 +71,10 @@ header {
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
-  padding-left: 22px;
-  padding-top: 10px;
+  width: 133px;
+  height: 42px;
+  background: #191B1D;
+  border-radius: 21px;
 }
 
 header ul li {
@@ -204,5 +190,19 @@ header ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-}
 
+  .hero-card h3 {
+    font-size: 50px;
+    line-height: 62px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .yellow-line {
+    border-top: 3px solid yellow;
+    position: relative;
+    bottom: 25px;
+    max-width: 250px;
+
+  }
+}
