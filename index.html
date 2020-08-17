@@ -1,90 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandan</title>
+    <!-- owl css -->
+    <link rel="stylesheet" href="./assets/owl/owl.carousel.css" />
+    <link rel="stylesheet" href="./assets/owl/owl.theme.css" />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <!-- fontawesome -->
+    <script src="assets/fontawesome/all.js" type="text/js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chandan</title>
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/styles/main.css" />
-  <!-- fontawesome -->
-  <script src="./assets/fontawesome/all.js" type="text/js"></script>
-</head>
-
-<body>
-  <header class="header" id="header">
-    <div class="navigation-header">
-      <div class="logo">
-        <h5>this is Chandan</h5>
-        <div class="toggleBtn">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="navigation-header">
+        <div class="logo">
+          <h5>this is Chandan</h5>
+          <div class="toggleBtn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </div>
+        <ul class="nav-menu">
+          <li class="nav-menu-list"><a href="#">Works</a></li>
+          <li class="nav-menu-list"><a href="#">About</a></li>
+          <li class="nav-menu-list"><a href="#">Resume</a></li>
+          <!-- <li class="nav-menu-list"><a href=""> <i class="fas fa-arrow-down"></i></a></li> -->
+        </ul>
+        <button class="reach-out link">Get In Touch</button>
       </div>
-      <ul class="nav-menu">
-        <li class="nav-menu-list"><a href="#">Works</a></li>
-        <li class="nav-menu-list"><a href="#">About</a></li>
-        <li class="nav-menu-list"><a href="#">Resume</a></li>
-      </ul>
-      <button class="reach-out">Get in touch</button>
-    </div>
-    <div class="navigation-hero">
-      <div class="hero-card">
-        <h3>Chandan <span>kolaparthi</span></h3>
-        <div class="yellow-line"></div>
-        <p>fullstack designer</p>
-        <div class="arrow-down-icon">
-          <i class="fab-fa-arrow-down"></i>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <!-- project section section -->
-    <section class="projects" id="projects">
-      <div class="project-envelope">
-        <h1>selected work</h1>
-        <div class="work--wrapper">
-          <!-- repeated works start -->
-          <div class="wk-bg">
-            <div class="work-box"></div>
-            <h4>Talentpool</h4>
-            <p>Logo, Design Direction, Website</p>
-          </div>
-          <div class="wk-bg">
-            <div class="work-box"></div>
-            <h4>Fund My Laptop</h4>
-            <p>Design Direction, Website</p>
-          </div>
-          <div class="wk-bg">
-            <div class="work-box"></div>
-            <h4>Stratex</h4>
-            <p>Design Direction, Web App</p>
-          </div>
-          <div class="wk-bg">
-            <div class="work-box"></div>
-            <h4>With Me</h4>
-            <p>Website, Mobile App</p>
+      <div class="navigation-hero">
+        <div class="hero-card">
+          <h3>Chandan <span>kolaparthi</span></h3>
+          <div class="yellow-line"></div>
+          <p>ux designer specialised in interaction design</p>
+          <div class="arrow-down-icon">
+            <i> &#8595;</i>
           </div>
         </div>
       </div>
-    </section>
-  </main>
-  <!-- boostrap js -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    </header>
+
+    <main>
+      <!-- project section section -->
+      <section class="projects" id="projects">
+        <div class="project-envelope">
+          <h1>selected <span>work</span></h1>
+          <div class="work--wrapper owl-carousel owl-theme">
+            <!-- owl-carousel owl-theme -->
+            <!-- repeated works start -->
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <div class="txt">
+                <h4>Talentpool</h4>
+                <p>Logo, Design Direction, Website</p>
+              </div>
+            </article>
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <h4>Fund My Laptop</h4>
+              <p>Design Direction, Website</p>
+            </article>
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <h4>Stratex</h4>
+              <p>Design Direction, Web App</p>
+            </article>
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <h4>With Me</h4>
+              <p>Website, Mobile App</p>
+            </article>
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <h4>With Me</h4>
+              <p>Website, Mobile App</p>
+            </article>
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <h4>With Me</h4>
+              <p>Website, Mobile App</p>
+            </article>
+            <article class="wk-bg">
+              <div class="work-box"></div>
+              <h4>With Me</h4>
+              <p>Website, Mobile App</p>
+            </article>
+            <article class="wk-bg last-bg">
+              <div class="article-icon">
+                <i> &#8594;</i>
+              </div>
+              <p>View More</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- about me -->
+      <section class="about" id="about">
+        <div class="about-txt">
+          <h1>about <span>me</span></h1>
+          <ul>
+            <li>
+              Passionate full stack designer specialized in branding, identity
+              and competitor research with programming background.
+            </li>
+            <li>
+              Proficient with Adobe Suite including Photoshop, Illustrator,
+              After effects and design tools such as Adobe XD, Figma.
+            </li>
+            <li>
+              Have sound knowledge on web design, graphic design, banner &
+              poster design, mobile app design and logo design.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content-wrapper">
+        <div class="links">
+          <h5>Like what you see?</h5>
+          <p>
+            View my <span><a href="#">resume</a></span> and
+            <span><a href="#">get in touch</a></span>
+          </p>
+          <p id="email">hey@thisischandan.com</p>
+        </div>
+      </div>
+    </footer>
+    <!-- boostrap js -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
-  <script src="./assets/js/script.js"></script>
-</body>
-
+  </script> -->
+    <script src="./assets/owl/owl.carousel.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/script2.js"></script> -->
+  </body>
 </html>
