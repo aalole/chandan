@@ -161,7 +161,7 @@ header ul li a {
 .navigation-hero h3 {
   font-family: Monument Extended;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 86px;
   color: #191B1D;
@@ -423,12 +423,12 @@ header ul li a {
   }
 
   .owl-item {
-    width: 500px !important;
+    width: 450px !important;
   }
 
   .work-box {
-    height: 300px;
-    width: 450px;
+    height: 250px;
+    width: 400px;
     margin: 10px;
   }
 
@@ -561,4 +561,7 @@ footer {
     line-height: 31px;
     /* margin-bottom: 150px; */
   }
+}
+body * h3{
+  font-weight: 300
 }
