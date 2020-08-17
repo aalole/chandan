@@ -11,38 +11,41 @@
   font-family: "Airbnb-Cereal";
   src: url("../../assets/fonts/AirbnbCerealBook.ttf"),
     url("../../assets/fonts/AirbnbCerealLight.ttf"),
-    url("../../assets/fonts/AirbnbCerealMedium.ttf")format("ttf");
+    url("../../assets/fonts/AirbnbCerealMedium.ttf") format("ttf");
   font-weight: normal;
 }
-
 
 @font-face {
   font-family: "Ambit";
   src: url("../../assets/fonts/Ambit-Regular.ttf") format("ttf"),
-    url("../../assets/fonts/Ambit-Light.ttf")format("ttf"),
-    url("../../assets/fonts/Ambit-Black.ttf")format("ttf");
+    url("../../assets/fonts/Ambit-Light.ttf") format("ttf"),
+    url("../../assets/fonts/Ambit-Black.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Monument Extended";
   src: url("../../assets/fonts/MonumentExtended-Ultrabold.otf") format("otf");
   font-weight: bold;
-
 }
 
 @font-face {
   font-family: "Monument Extended";
-  src: url("http://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
+  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
   /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix") format("embedded-opentype"),
+  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix")
+      format("embedded-opentype"),
     /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2") format("woff2"),
+      url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2")
+      format("woff2"),
     /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff") format("woff"),
+      url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff")
+      format("woff"),
     /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf") format("truetype"),
+      url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf")
+      format("truetype"),
     /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended") format("svg");
+      url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended")
+      format("svg");
   /* iOS 4.1- */
 }
 
@@ -72,7 +75,6 @@ header {
   justify-content: center;
 }
 
-
 .logo {
   display: flex;
   justify-content: space-between;
@@ -84,22 +86,22 @@ header {
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  color: #191B1D;
+  color: #191b1d;
   padding-top: 6px;
 }
 
 .reach-out {
-  font-family: Ambit!important;
+  font-family: Ambit !important;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   width: 133px;
   height: 42px;
-  background: #191B1D;
+  background: #191b1d;
   border-radius: 21px;
   /* margin-top: 40px; */
 }
@@ -117,13 +119,12 @@ header ul li {
 
 header ul li a {
   font-family: Ambit;
-  ;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
   text-align: right;
-  color: #191B1D;
+  color: #191b1d;
   text-decoration: none;
 }
 
@@ -133,7 +134,7 @@ header ul li a {
   width: 25px;
   height: 4px;
   margin: 5px;
-  background: #191B1D;
+  background: #191b1d;
   color: #fff;
   transition: transform 2s ease, opacity 2s ease;
 }
@@ -164,12 +165,12 @@ header ul li a {
   font-weight: 400;
   font-size: 18px;
   line-height: 86px;
-  color: #191B1D;
+  color: #191b1d;
   text-align: center;
 }
 
 .navigation-hero span {
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 .navigation-hero p {
@@ -205,7 +206,7 @@ header ul li a {
   background: #fff;
   position: relative;
   margin-top: 100px;
-  margin-left: 100px
+  margin-left: 100px;
 }
 
 .article-icon {
@@ -236,8 +237,7 @@ header ul li a {
   font-size: 27px;
 }
 
-
-@media screen and (min-width:776px) {
+@media screen and (min-width: 776px) {
   header {
     max-width: 90%;
     margin: 0 auto;
@@ -252,9 +252,8 @@ header ul li a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
   }
-
 
   .toggleBtn {
     display: none;
@@ -303,7 +302,6 @@ header ul li a {
     position: relative;
     bottom: 20px;
     max-width: 250px;
-
   }
 
   .hero-card p {
@@ -326,9 +324,8 @@ header ul li a {
 
 /* ################# PROJECTS SECTION################################ */
 
-
 .projects {
-  background: #191B1D;
+  background: #191b1d;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -340,7 +337,7 @@ header ul li a {
   font-size: 28px;
   line-height: 52px;
   padding: 20px auto;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   text-align: center;
   top: 90px;
@@ -348,11 +345,11 @@ header ul li a {
 
 .project-envelope span {
   margin-left: 20px;
-  z-index: 10
+  z-index: 10;
 }
 
 .work-box {
-  background: #7A7A7A;
+  background: #7a7a7a;
   height: 160px;
   width: 300px;
   margin: 10px auto;
@@ -366,14 +363,13 @@ header ul li a {
   padding: 10px;
 }
 
-
 .wk-bg h4 {
   font-family: Airbnb-Cereal;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: left;
   padding-top: 10px;
 }
@@ -385,19 +381,18 @@ header ul li a {
   font-size: 14px;
   line-height: 17px;
   color: rgba(255, 255, 255, 0.5);
-
 }
 
 .last-bg p {
   padding-top: 20px;
   font-size: 20px;
   line-height: 20px;
-  color: #fff
+  color: #fff;
 }
 
 .wk-bg h4,
 .wk-bg p {
-  padding-left: 3px
+  padding-left: 3px;
 }
 
 .article-icon,
@@ -407,9 +402,7 @@ header ul li a {
   left: 100px;
 }
 
-
-@media screen and (min-width:776px) {
-
+@media screen and (min-width: 776px) {
   .project-envelope {
     max-width: 90%;
     margin: 0 auto;
@@ -467,11 +460,11 @@ header ul li a {
   font-weight: normal;
   font-size: 28px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about span {
-  color: #191B1D
+  color: #191b1d;
 }
 
 .about ul li {
@@ -480,16 +473,16 @@ header ul li a {
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
-  color: #191B1D;
+  color: #191b1d;
   margin-left: 15px;
   padding: 20px auto;
 }
 
-@media screen and (min-width:776px) {
+@media screen and (min-width: 776px) {
   .about h1 {
-  font-size: 50px;
-  line-height: 72px;
-}
+    font-size: 50px;
+    line-height: 72px;
+  }
   .about ul li {
     font-size: 24px !important;
     line-height: 31px;
@@ -519,12 +512,12 @@ footer {
   font-weight: normal;
   font-size: 17px;
   line-height: 32px;
-  color: #191B1D;
+  color: #191b1d;
 }
 
 .footer-content-wrapper a {
-  text-decoration-color: #191B1D;
-  color: #191B1D
+  text-decoration-color: #191b1d;
+  color: #191b1d;
 }
 
 .links {
@@ -537,7 +530,7 @@ footer {
   line-height: 27px;
 }
 
-@media screen and (min-width:776px) {
+@media screen and (min-width: 776px) {
   .footer-content-wrapper {
     max-width: 90%;
     margin: 0 auto;
@@ -547,13 +540,11 @@ footer {
   .footer-content-wrapper p {
     font-size: 36px;
     line-height: 47px;
-
   }
 
   .links {
     padding-top: 64px;
     padding-bottom: 80px;
-
   }
 
   #email {
@@ -562,6 +553,6 @@ footer {
     /* margin-bottom: 150px; */
   }
 }
-body * h3{
-  font-weight: 300
+body * h3 {
+  font-weight: 300;
 }
